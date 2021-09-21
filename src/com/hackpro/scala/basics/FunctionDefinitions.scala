@@ -6,7 +6,7 @@ object FunctionDefinitions extends App {
   def greetings(): Unit = println("Hello HackPro, Welcome to 2021!!!")
 
   greetings()
-  greetings
+  greetings()
 
   // 2) With Parameters
   def greetings2(name:String, year: Int): Unit = println(s"Hello ${name}, Welcome to ${year}")
@@ -18,9 +18,9 @@ object FunctionDefinitions extends App {
     def specialGreetings(): String = {
       "Special Greetings for HackPro Community!!!"
     }
-    "Greetings -> ".concat(specialGreetings)
+    "Greetings -> ".concat(specialGreetings())
   }
 
-  println(greetings3)
+  println(greetings3())
 
 }
